@@ -7,11 +7,11 @@ const BlogDetails = () => {
     data: blog,
     error,
     isPending,
-  } = useFetch("http://localhost:8000/blogs/" + id);
+  } = useFetch("https://db-data.onrender.com/blogs/" + id);
   const history = useHistory();
 
   const handleClick = () => {
-    fetch("http://localhost:8000/blogs/" + blog.id, {
+    fetch("https://db-data.onrender.com/blogs/" + blog.id, {
       method: "DELETE",
     }).then(() => {
       history.push("/");

@@ -6,7 +6,7 @@ const Home = () => {
     error,
     isPending,
     data: blogs,
-  } = useFetch("http://localhost:8000/blogs");
+  } = useFetch("https://db-data.onrender.com/blogs");
 
   return (
     <div className="home">

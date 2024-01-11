@@ -5,6 +5,8 @@ import Create from "./Create";
 import BlogDetails from "./BlogDetails";
 import NotFound from "./NotFound";
 
+// npx json-server data/db.json --port 8000
+
 function App() {
   return (
     <Router>
