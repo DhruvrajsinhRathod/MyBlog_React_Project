@@ -20,7 +20,7 @@ const BlogDetails = () => {
 
   return (
     <div className="blog-details">
-      {isPending && <div>Loading...</div>}
+      {isPending && <div>Dhruv's JSON server is currently taking its sweet time to awaken from its free service slumber on Render.com. Please bear with us—good things come to those who wait... or so they say!</div>}
       {error && <div>{error}</div>}
       {blog && (
         <article>
