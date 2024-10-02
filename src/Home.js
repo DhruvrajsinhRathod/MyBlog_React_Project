@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="home">
       {error && <div>{error}</div>}
-      {isPending && <div>Loading...</div>}
+      {isPending && <div>Dhruv's JSON server is currently taking its sweet time to awaken from its free service slumber on Render.com. Please bear with us—good things come to those who wait... or so they say!</div>}
       {blogs && <BlogList blogs={blogs} />}
     </div>
   );
